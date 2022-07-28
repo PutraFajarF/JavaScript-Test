@@ -3,19 +3,19 @@
 
 
 // Solution 1
-function longest(s1, s2) {
-  // your code
-  let word1 = [...new Set(s1.split(''))];
-  let word2 = [...new Set(s2.split(''))];
-  for (i = 0; i < word2.length; i++) {
-    word1.push(word2[i]);
-  }
+// function longest(s1, s2) {
+//   let word1 = [...new Set(s1.split(''))];
+//   let word2 = [...new Set(s2.split(''))];
 
-  let newWord = [...new Set(word1)];
-  let result = newWord.sort().join('');
+//   for (i = 0; i < word2.length; i++) {
+//     word1.push(word2[i]);
+//   }
 
-  return result
-}
+//   let newWord = [...new Set(word1)];
+//   let result = newWord.sort().join('');
+
+//   return result
+// };
 
 
 
